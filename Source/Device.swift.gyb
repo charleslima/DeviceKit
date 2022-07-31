@@ -203,6 +203,18 @@ watches = [
             "Device is an [Apple Watch Series 6](https://support.apple.com/kb/SP826)",
             "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP826/sp826-apple-watch-series6-580_2x.png",
             ["Watch6,2", "Watch6,4"], 2.0, (4,5), "Apple Watch Series 6 44mm", "Apple Watch Series 6 44mm", 326, False, False, False, False, False, False, False, True, False, 0, False, 0, False),
+            
+           Device(
+                  "appleWatchSeries7_41mm",
+                  "Device is an [Apple Watch Series 6](https://support.apple.com/kb/SP860)",
+                  "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP860/series7-480_2x.png",
+                  ["Watch6,6", "Watch6,6"], 2.0, (4,5), "Apple Watch Series 7 41mm", "Apple Watch Series 7 41mm", 326, False, False, False, False, False, False, False, True, False, 0, False, 0, False),
+            
+           Device(
+                  "appleWatchSeries7_45mm",
+                  "Device is an [Apple Watch Series 6](https://support.apple.com/kb/SP860)",
+                  "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP860/series7-480_2x.png",
+                  ["Watch6,9", "Watch6,9"], 2.0, (4,5), "Apple Watch Series 7 45mm", "Apple Watch Series 7 45mm", 326, False, False, False, False, False, False, False, True, False, 0, False, 0, False),
 
             Device(
             "appleWatchSE_40mm",
