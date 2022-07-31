@@ -519,8 +519,8 @@ public enum Device {
       case "Watch5,2", "Watch5,4": return appleWatchSeries5_44mm
       case "Watch6,1", "Watch6,3": return appleWatchSeries6_40mm
       case "Watch6,2", "Watch6,4": return appleWatchSeries6_44mm
-      case "Watch6,6", "Watch6,6": return appleWatchSeries7_41mm
-      case "Watch6,9", "Watch6,9": return appleWatchSeries7_45mm
+      case "Watch6,6", "Watch6,8": return appleWatchSeries7_41mm
+      case "Watch6,7", "Watch6,9": return appleWatchSeries7_45mm
       case "Watch5,9", "Watch5,11": return appleWatchSE_40mm
       case "Watch5,10", "Watch5,12": return appleWatchSE_44mm
       case "i386", "x86_64", "arm64": return simulator(mapToDevice(identifier: ProcessInfo().environment["SIMULATOR_MODEL_IDENTIFIER"] ?? "watchOS"))
